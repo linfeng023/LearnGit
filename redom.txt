@@ -17,5 +17,15 @@
 3.1  git add 文件名
 3.2  git commit -m "描述"
 
+（4）查看最近的提交日志
+
+4.1  git log （最新版本后面有HEAD^来显示标识） git log --pretty=oneline  (简介显示提交的日志信息)
+
+（5）回退版本
+
+5.1  git reset --hard HEAD^  （在当前最新版本回退到上一个版本）回退多个版本是：HEAD~Number
+
+
+
 
 
