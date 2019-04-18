@@ -1,0 +1,17 @@
+git add .
+
+git commit -m ""
+
+git push origin linfeng
+
+git checkout test
+
+git merge linfeng
+
+git pull origin test
+
+git push origin test
+
+git checkout linfeng
+
+git merge test
