@@ -36,4 +36,28 @@
 8.1  git status
 
 
-我这边终于弄好了！
+添加远程库
+
+git remote add origin 地址
+
+git 提示fatal: remote origin already exists 解决办法
+
+1、先删除远程 Git 仓库
+$ git remote rm origin
+
+
+
+2、再添加远程 Git 仓库
+
+
+
+$ git remote add origin 
+
+仓库地址
+
+如果执行 git remote rm origin 依然报错，可以手动修改gitconfig文件的内容
+
+
+
+$ vi .git/config
+把 [remote “origin”] 那一行删掉
